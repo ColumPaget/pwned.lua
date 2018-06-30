@@ -10,7 +10,7 @@ pwned.lua is licenced under the GPL v3.
 
 pwned.lua requires the following libraries to be installed
 
-libUseful      https://github.com/ColumPaget/libUseful
+libUseful      https://github.com/ColumPaget/libUseful   
 libUseful-lua  https://github.com/ColumPaget/libUseful-lua
 
 
