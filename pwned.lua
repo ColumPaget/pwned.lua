@@ -6,7 +6,7 @@ require("terminal")
 require("hash")
 require("net")
 
-VERSION="1.0"
+VERSION="1.1"
 
 function ReadBreach(I)
 local breach={}
