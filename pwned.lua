@@ -209,7 +209,7 @@ local bcount=0
 
 	if settings.details == false and settings.only_qty == false
 	then
-	Out:puts("Key: ~gV~0=Verified F=Fake ~rX~0=Sensitive ~mi~0=Identity Info ~rB~0=Bank details ~rC~0=Credit Card Info ~ca~0=Age info ~gI~0=IP Addresss ~bs~0=sex/gender ~rx~0=sexual info ~mh~0=habits (drink,drugs,smoking,eating) ~e~yM~0=messages ~e~cG~0=Geographic location ~bP~0=Phone ~rA~0=Authentication/Passwords\n");
+	Out:puts("Key: ~gV~0=Verified F=Fake ~rX~0=Sensitive ~rA~0=Authentication/Passwords ~rB~0=Bank details ~rC~0=Credit Card Info ~ca~0=Age info ~gI~0=IP Addresss ~bs~0=sex/gender ~rx~0=sexual info ~mh~0=habits (drink,drugs,smoking,eating) ~mi~0=Identity Info ~e~yM~0=messages ~e~cG~0=Geographic location ~bP~0=Phone \n");
 	end
 
 	if settings.only_qty==true 
@@ -331,6 +331,7 @@ local qarg=""
 
 settings.details=false
 settings.debug=false
+settings.only_qty=false
 settings.proxy="" 
 settings.sort="" 
 settings.date="" 
